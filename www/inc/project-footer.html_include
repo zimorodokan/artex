@@ -1,0 +1,45 @@
+
+	<footer>
+		<div class="menu">
+			<div class="section">
+				<div class="header">ТОВ «АртексПромГруп»</div>
+				<div class="items">
+					<div class="item"><a href="/about.html">Про нас</a></div>
+					<div class="item"><a href="/journal.html">Блог</a></div>
+					<div class="item"><a href="https://youtube.com">Відео</a></div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="header">Відділ продажу (офіс):</div>
+				<div class="items">
+					<div class="item"><a href="">м. Київ, вул. Антона Цедіка, 12</a></div>
+				</div>
+				<div class="header">Оптовий склад:</div>
+				<div class="items">
+					<div class="item"><a href="">м. Київ, вул. Колоскова, 11</a></div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="header">Телефони:</div>
+				<div class="items">
+					<div class="item"><a href="tel:+380442499997">+380 44 249 99 97</a></div>
+					<div class="item"><a href="tel:+380444927246">+380 44 492 72 46</a></div>
+					<div class="item"><a href="tel:+380675364675">+380 67 536 46 75</a></div>
+					<div class="item"><a href="tel:+380673297117">+380 67 329 71 17</a></div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="header">Графік роботи:</div>
+				<div class="items">
+					<div class="item">Пн—Пт 9:00—18:00</div>
+				</div>
+			</div>
+		</div>
+		<div class="license">
+			<div class="container">
+				<div class="terms"><a href="/terms.html" title="Умови використання інформації, розміщеної на веб-майданчиках компанії «Артекспромгруп»">Умови використання</a></div>
+				<div class="copyright"><span title="Всі права захищені">&copy; 2019</span> <a href="/" title="Компанія «Артекспромгруп»">АртексПромГруп</a></div>
+			</div>
+		</div>
+		<div class="notification"><div class="message"><span class="sorting"><span class="name">Відсортовано: </span></span><span class="filtering"><span class="name">Знайдено: </span></span><span class="insert"></span></div><div class="link">ПЕРЕЙТИ</div></div>
+	</footer>

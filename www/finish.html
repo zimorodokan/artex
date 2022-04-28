@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>finish</title>
+	<meta name="description" content="Сторінка finish">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://artex.proridne.com/finish.html">
+	<link rel="alternate" hreflang="uk" href="/">
+	<link rel="alternate" hreflang="ru" href="/">
+	<!--#include virtual="/inc/project-head-icons.html_include" -->
+	<style>
+		<!--#include virtual="/css/artex.css" -->
+	</style>
+</head>
+<body>
+	<!--#include virtual="/inc/project-header-logged.html_include" -->
+	<main>
+		<h1>Дякуємо за замовлення</h1>
+		<div class="standard-text">
+			<div class="header">Копія вашого замовлення надіслана на вказану адресу електронної пошти</div>
+			<div class="header">Будьте на зв’язку</div>
+			<div>Очікуйте на дзвінок нашого менеджера у робочий час для уточнення даних.</div>
+			<div class="header">Контролюйте замовлення</div>
+			<div>
+				<p>В кабінеті ви можете:</p>
+				<ul>
+					<li>відстежити статус замовлення, дату відправки та номер декларації,</li>
+					<li>переглянути історію замовлень,</li>
+					<li>змінити персональні дані,</li>
+					<li>змінити транспортну компанію та/чи її відділення,</li>
+					<li>оплатити замовлення онлайн.</li>
+				</ul>
+			</div>
+			<div>Для швидкого входу в кабінет авторизуйтеся за допомогою даних соціальної мережі.</div>
+		</div>
+		<div class="buttons">
+			<button type="button" class="button type1 facebook">Увійти через Facebook</button>
+			<button type="button" class="button type1 google">Увійти через Google</button>
+		</div>
+	</main>
+	<!--#include virtual="/inc/project-footer.html_include" -->
+	<script src="/js/artex.js"></script>
+	<script>
+		if (Artex) {
+			if (typeof Artex.Data === 'object') {
+				Artex.Data.page = {
+					'type': 'finish',
+				};
+				Artex.Data.user = {
+					'name': 'Джон Доу',
+					'avatar': 'https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-1/c12.0.74.74a/p74x74/1925305_1538509879708565_1994387184_n.jpg?_nc_cat=103&_nc_oc=AQlYULCzcFecFfopdQna1OOwIigQziRbEgF2shGtO9-IYV2gkX6sA1oXOJanS4g2Tn0&_nc_ht=scontent-frx5-1.xx&oh=f3f34188c18d68ce8a3bc6dd9323381d&oe=5DB20789'
+				};
+			}
+			else {
+				console.error('Wrong Artex.Data type.');
+			}
+		}
+		else {
+			console.error('Global variable Artex not exists.');
+		}
+	</script>
+</body>
+</html>

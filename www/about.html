@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Про нас</title>
+	<meta name="description" content="Сторінка Про нас">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://artex.proridne.com/about.html">
+	<link rel="alternate" hreflang="uk" href="/">
+	<link rel="alternate" hreflang="ru" href="/">
+	<!--#include virtual="/inc/project-head-icons.html_include" -->
+	<style>
+		<!--#include virtual="/css/artex.css" -->
+	</style>
+</head>
+<body>
+	<!--#include virtual="/inc/project-header.html_include" -->
+	<div class="back-to-parent"><a href="/main.html">Головна</a></div>
+	<main>
+		<h1>Про нас</h1>
+		<div class="standard-text">
+			<p>Компания «АртексПромГрупп» — национальный производитель и поставщик средств индивидуальной защиты, а также многих других товаров производственной группы, крайне необходимых для продуктивной и слаженной работы крупного промышленного производства.</p>
+			<p>Наша компания заинтересована в том, чтобы все промышленные предприятия Украины были в полной мере оснащены всей необходимой продукцией.</p>
+			<p>Мы уверены, только правильный подход к организации труда и максимально комфортные условия для работы, созданные на производстве, способны гарантировать Вашему предприятию эффективное развитие и стабильный доход.</p>
+			<p>Компания «АртексПромГрупп» работает как с представителями отдельных промышленных предприятий, так и с крупными торговыми сетями, заинтересованными в реализации промышленной продукции.</p>
+		</div>
+	</main>
+	<!--#include virtual="/inc/project-footer.html_include" -->
+	<script src="/js/artex.js"></script>
+	<script>
+		if (Artex) {
+			if (typeof Artex.Data === 'object') {
+				Artex.Data.page = {
+					'type': 'about',
+				};
+				Artex.Data.user = {
+				};
+			}
+			else {
+				console.error('Wrong Artex.Data type.');
+			}
+		}
+		else {
+			console.error('Global variable Artex not exists.');
+		}
+	</script>
+</body>
+</html>

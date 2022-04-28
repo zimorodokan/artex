@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>authorization</title>
+	<meta name="description" content="Сторінка authorization">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://artex.proridne.com/authorization.html">
+	<link rel="alternate" hreflang="uk" href="/">
+	<link rel="alternate" hreflang="ru" href="/">
+	<!--#include virtual="/inc/project-head-icons.html_include" -->
+	<style>
+		<!--#include virtual="/css/artex.css" -->
+	</style>
+</head>
+<body>
+	<!--#include virtual="/inc/project-header.html_include" -->
+	<main>
+		<h1>Авторизація</h1>
+		<div class="container">
+			<div class="text">Увійти за допомогою електронної пошти</div>
+			<form action="/" name="form-user">
+				<div class="form-input">
+					<label for="form-user-email">Електронна пошта</label>
+					<input class="block" type="email" name="form-user-email" id="form-user-email" autocomplete="off" required>
+					<div class="input-error-text" data-error-type="1">Вкажіть адресу електронної пошти</div>
+				</div>
+				<button type="submit" class="button type1 green">Отримати доступ</button>
+			</form>
+			<div class="text">або через соціальну мережу</div>
+			<div class="buttons">
+				<button type="button" class="button type1 facebook">Facebook</button>
+				<button type="button" class="button type1 google">Google</button>
+			</div>
+		</div>
+	</main>
+	<!--#include virtual="/inc/project-footer.html_include" -->
+	<script src="/js/artex.js"></script>
+	<script>
+		if (Artex) {
+			if (typeof Artex.Data === 'object') {
+				Artex.Data.page = {
+					'type': 'authorization',
+				};
+				Artex.Data.user = {
+				};
+			}
+			else {
+				console.error('Wrong Artex.Data type.');
+			}
+		}
+		else {
+			console.error('Global variable Artex not exists.');
+		}
+	</script>
+</body>
+</html>

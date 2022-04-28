@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>order</title>
+	<meta name="description" content="Сторінка order">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://artex.proridne.com/order.html">
+	<link rel="alternate" hreflang="uk" href="/">
+	<link rel="alternate" hreflang="ru" href="/">
+	<!--#include virtual="/inc/project-head-icons.html_include" -->
+	<style>
+		<!--#include virtual="/css/artex.css" -->
+	</style>
+</head>
+<body>
+	<!--#include virtual="/inc/project-header-logged.html_include" -->
+	<main>
+		<h1>Оформлення замовлення</h1>
+		<div class="blocks">
+			<form action="/" name="form-user">
+				<div class="header">Контактні дані</div>
+				<div class="form-input">
+					<label for="form-user-name">Прізвище, Ім’я</label>
+					<input class="block" type="text" name="form-user-name" id="form-user-name" autocomplete="off" required>
+					<div class="input-error-text" data-error-type="1">Заповніть</div>
+				</div>
+				<div class="form-input">
+					<label for="form-user-phone-number">Номер мобільного телефону</label>
+					<div class="input-telephone-code">
+						<input class="block" type="tel" name="form-user-phone-number" id="form-user-phone-number" autocomplete="off" required pattern="[0-9]{9}" maxlength="9" minlength="9">
+					</div>
+					<div class="input-error-text" data-error-type="1">Заповніть</div>
+				</div>
+				<div class="form-input">
+					<label for="form-user-email">Адреса електронної пошти</label>
+					<input class="block" type="email" name="form-user-email" id="form-user-email" autocomplete="off" required>
+					<div class="input-error-text" data-error-type="1">Заповніть</div>
+				</div>
+				<div class="form-textarea">
+					<label for="form-user-comment">Коментар</label>
+					<textarea name="form-user-comment" id="form-user-comment" autocomplete="off"></textarea>
+				</div>
+				<button class="button type1 green" type="submit">НАДІСЛАТИ</button>
+			</form>
+			<div class="goods">
+				<div class="header">Ваше замовлення</div>
+				<div class="product">
+					<div class="image" data-for-insert-img-url="/image/tovar-1.jpg"></div>
+					<div class="text">
+						<div class="name">Газозахисний фільтр A1B1E1K1 NewEurmask</div>
+						<div class="number-price">5 &times; 600 грн</div>
+						<div class="amount">3000 грн</div>
+					</div>
+				</div>
+				<div class="product">
+					<div class="image" data-for-insert-img-url="/image/tovar-2.jpg"></div>
+					<div class="text">
+						<div class="name">Захисна маска повнолицьова Panarea Twin з фільтрами</div>
+						<div class="number-price">5 &times; 18810 грн</div>
+						<div class="amount">94050 грн</div>
+					</div>
+				</div>
+				<div class="total-amount">Всього: 97050 грн</div>
+				<a class="button type1 white" href="/basket.html">Редагувати</a>
+			</div>
+		</div>
+	</main>
+	<!--#include virtual="/inc/project-footer.html_include" -->
+	<script src="/js/artex.js"></script>
+	<script>
+		if (Artex) {
+			if (typeof Artex.Data === 'object') {
+				Artex.Data.page = {
+					'type': 'order',
+				};
+				Artex.Data.user = {
+					'name': 'Джон Доу',
+					'avatar': 'https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-1/c12.0.74.74a/p74x74/1925305_1538509879708565_1994387184_n.jpg?_nc_cat=103&_nc_oc=AQlYULCzcFecFfopdQna1OOwIigQziRbEgF2shGtO9-IYV2gkX6sA1oXOJanS4g2Tn0&_nc_ht=scontent-frx5-1.xx&oh=f3f34188c18d68ce8a3bc6dd9323381d&oe=5DB20789'
+				};
+			}
+			else {
+				console.error('Wrong Artex.Data type.');
+			}
+		}
+		else {
+			console.error('Global variable Artex not exists.');
+		}
+	</script>
+</body>
+</html>

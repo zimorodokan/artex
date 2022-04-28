@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Оплата</title>
+	<meta name="description" content="Сторінка Оплата">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://artex.proridne.com/payment.html">
+	<link rel="alternate" hreflang="uk" href="/">
+	<link rel="alternate" hreflang="ru" href="/">
+	<!--#include virtual="/inc/project-head-icons.html_include" -->
+	<style>
+		<!--#include virtual="/css/artex.css" -->
+	</style>
+</head>
+<body>
+	<!--#include virtual="/inc/project-header.html_include" -->
+	<div class="back-to-parent"><a href="/main.html">Головна</a></div>
+	<main>
+		<h1>Способи оплати</h1>
+		<div class="standard-text">
+			<section>
+				<h2>Оплата готівкою</h2>
+				<p>Оплата готівкою можлива в салоні компанії. Розрахунок проводиться у національній валюті за курсом, визначеним на момент замовлення.</p>
+			</section>
+			<section>
+				<h2>Безготівковий розрахунок</h2>
+				<p>Менеджер магазину надсилає рахунок-фактуру на вказану вами адресу електронної пошти. Усі необхідні документи щодо придбання товару по перерахунку надаються разом з цим товаром</p>
+			</section>
+			<section>
+				<h2>Післяплата</h2>
+				<p>Розрахунок за товар здійснюється після отримання вами замовлення у транспортній компанії. Крім вартості замовлення та доставки додатково ви маєте сплатити комісію транспортної компанії за перерахунок нам коштів.</p>
+			</section>
+			<section>
+				<h2>Оплата через систему Приват24</h2>
+				<p>Веб-сторінка магазину скерує вас на сторінку системи Приват24 з налаштованими реквізитами для оплати товарів чи послуг, замовлених у нашому магазині.</p>
+			</section>
+			<section>
+				<h2>Оплата через касу чи термінал самообслуговування ПриватБанку</h2>
+				<p>Ми надсилаємо вам текстове повідомлення з усіма необхідними реквізитами на вказаний вами номер мобільного телефону.</p>
+			</section>
+		</div>
+	</main>
+	<!--#include virtual="/inc/project-footer.html_include" -->
+	<script src="/js/artex.js"></script>
+	<script>
+		if (Artex) {
+			if (typeof Artex.Data === 'object') {
+				Artex.Data.page = {
+					'type': 'payment',
+				};
+				Artex.Data.user = {
+				};
+			}
+			else {
+				console.error('Wrong Artex.Data type.');
+			}
+		}
+		else {
+			console.error('Global variable Artex not exists.');
+		}
+	</script>
+</body>
+</html>

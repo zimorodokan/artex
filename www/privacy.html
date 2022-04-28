@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Політика приватності</title>
+	<meta name="description" content="Сторінка Політика приватності">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://artex.proridne.com/privacy.html">
+	<link rel="alternate" hreflang="uk" href="/">
+	<link rel="alternate" hreflang="ru" href="/">
+	<!--#include virtual="/inc/project-head-icons.html_include" -->
+	<style>
+		<!--#include virtual="/css/artex.css" -->
+	</style>
+</head>
+<body>
+	<!--#include virtual="/inc/project-header.html_include" -->
+	<div class="back-to-parent"><a href="/main.html">Головна</a></div>
+	<main>
+		<h1>Політика конфіденційності</h1>
+		<div class="standard-text">
+			<p>Веб-майданчик може використовувати для своєї роботи власні та сторонні сервіси, які для потреб їх функціонування можуть збирати певні дані про користувача.</p>
+			<p>Компанія «АртексПромГруп» може збирати та зберігати дані, які необхідні для правильного функціонування Веб-майданчика, ідентифікації користувачів та забезпечення взаємодії з ними, забезпечення успішної діяльності компанії, у тому числі різного роду досліджень.</p>
+			<p>Інші сервіси збирають та зберігають інформацію відповідно до їхніх Політик.</p>
+			<ul>
+				<li><a href="https://policies.google.com/privacy?hl=uk">Політика конфіденційності компанії Google</a></li>
+				<li><a href="https://yandex.ua/legal/confidential/">Політика конфіденційності компанії Яндекс</a></li>
+			</ul>
+			<p>Використовуючи наш Веб-майданчик ви підтверджуєте згоду на збирання даних про вас, їх подальше використання та обробку зібраних про вас та наданих вами персональних даних відповідно до Закону України «<a href="//zakon2.rada.gov.ua/laws/show/2297-17" target="_blank">Про захист персональних даних</a>» та даних на умовах цієї Політики та вказаних у тексті Політик сторонніх сервісів</p>
+		</div>
+	</main>
+	<!--#include virtual="/inc/project-footer.html_include" -->
+	<script src="/js/artex.js"></script>
+	<script>
+		if (Artex) {
+			if (typeof Artex.Data === 'object') {
+				Artex.Data.page = {
+					'type': 'privacy',
+				};
+				Artex.Data.user = {
+				};
+			}
+			else {
+				console.error('Wrong Artex.Data type.');
+			}
+		}
+		else {
+			console.error('Global variable Artex not exists.');
+		}
+	</script>
+</body>
+</html>

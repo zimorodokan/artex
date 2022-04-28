@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Контакти</title>
+	<meta name="description" content="Сторінка Контакти">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://artex.proridne.com/contacts.html">
+	<link rel="alternate" hreflang="uk" href="/">
+	<link rel="alternate" hreflang="ru" href="/">
+	<!--#include virtual="/inc/project-head-icons.html_include" -->
+	<style>
+		<!--#include virtual="/css/artex.css" -->
+	</style>
+</head>
+<body>
+	<!--#include virtual="/inc/project-header.html_include" -->
+	<div class="back-to-parent"><a href="/main.html">Головна</a></div>
+	<main>
+		<h1>Як з нами зв’язатися</h1>
+		<div class="blocks">
+			<div class="contacts">
+				<div class="addresses">
+					<div class="address">
+						<div class="value">Адреса: Україна, місто Київ, вулиця Антона Цедіка, 12</div>
+						<div class="explanation">офіс</div>
+					</div>
+					<div class="address">
+						<div class="value">Адреса: Україна, місто Київ, вулиця Колоскова, 11</div>
+						<div class="explanation">гуртовий склад</div>
+					</div>
+				</div>
+				<div class="phones">
+					<div class="phone">
+						<div class="value"><a class="shop-contacts-phone" href="tel:+380442499997">+380442499997</a></div>
+						<div class="explanation">Укртелеком</div>
+					</div>
+					<div class="phone">
+						<div class="value"><a class="shop-contacts-phone" href="tel:+380444927246">+380444927246</a></div>
+						<div class="explanation">Укртелеком</div>
+					</div>
+					<div class="phone">
+						<div class="value"><a class="shop-contacts-phone" href="tel:+380675364675">+380675364675</a></div>
+						<div class="explanation">Київстар</div>
+					</div>
+					<div class="phone">
+						<div class="value"><a class="shop-contacts-phone" href="tel:+380673297117">+380673297117</a></div>
+						<div class="explanation">Київстар</div>
+					</div>
+				</div>
+				<div class="emails">
+					<div class="email">
+						<div class="value"><a href="mailto:artexpromgroup@ukr.net">artexpromgroup@ukr.net</a></div>
+						<div class="explanation">офіс</div>
+					</div>
+				</div>
+			</div>
+			<div class="shopping-hours">
+				<div class="day" data-weekday="1">
+					<div class="name">Понедельник:</div>
+					<div class="time">09:00—18:00</div>
+				</div>
+				<div class="day" data-weekday="2">
+					<div class="name">Вівторок:</div>
+					<div class="time">09:00—18:00</div>
+				</div>
+				<div class="day" data-weekday="3">
+					<div class="name">Середа</div>
+					<div class="time">09:00—18:00</div>
+				</div>
+				<div class="day" data-weekday="4">
+					<div class="name">Четвер:</div>
+					<div class="time">09:00—18:00</div>
+				</div>
+				<div class="day" data-weekday="5">
+					<div class="name">П’ятниця:</div>
+					<div class="time">09:00—18:00</div>
+				</div>
+				<div class="day" data-weekday="6">
+					<div class="name">Субота:</div>
+					<div class="time">вихідний</div>
+				</div>
+				<div class="day" data-weekday="0">
+					<div class="name">Неділя:</div>
+					<div class="time">вихідний</div>
+				</div>
+			</div>
+		</div>
+		<div class="google-map">
+			<iframe class="shop-map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.0082865066993!2d30.436009615731646!3d50.45957037947655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc3694ab270f%3A0xefd2ea4114c4b172!2sAntona+Tsedika+St%2C+12%2C+Kyiv%2C+02000!5e0!3m2!1sen!2sua!4v1563026477905!5m2!1sen!2sua" allowfullscreen></iframe>
+		</div>
+		<div class="google-map">
+			<iframe class="shop-map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2542.915939299557!2d30.473079515729772!3d50.405404179469095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c92bf9fbc81d%3A0x5a99646289c6dfed!2sKoloskova+St%2C+11%2C+Kyiv%2C+02000!5e0!3m2!1sen!2sua!4v1563026556885!5m2!1sen!2sua" allowfullscreen></iframe>
+		</div>
+	</main>
+	<!--#include virtual="/inc/project-footer.html_include" -->
+	<script src="/js/artex.js"></script>
+	<script>
+		if (Artex) {
+			if (typeof Artex.Data === 'object') {
+				Artex.Data.page = {
+					'type': 'contacts',
+				};
+				Artex.Data.user = {
+				};
+				Artex.Data.shop={
+					'status':'offline',
+					'weekday':'3',
+				}
+			}
+			else {
+				console.error('Wrong Artex.Data type.');
+			}
+		}
+		else {
+			console.error('Global variable Artex not exists.');
+		}
+	</script>
+</body>
+</html>

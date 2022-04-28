@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="uk" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Кабінет користувача</title>
+	<meta name="description" content="Сторінка Кабінет користувача">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://artex.proridne.com/user.html">
+	<link rel="alternate" hreflang="uk" href="/">
+	<link rel="alternate" hreflang="ru" href="/">
+	<!--#include virtual="/inc/project-head-icons.html_include" -->
+	<style>
+		<!--#include virtual="/css/artex.css" -->
+	</style>
+</head>
+<body>
+	<!--#include virtual="/inc/project-header-logged.html_include" -->
+	<main>
+		<div class="user-cabinet">
+			<div class="first">
+				<div class="menu">
+					<div class="header">Кабінет користувача</div>
+					<div class="items">
+						<div class="item profile current"><a href="user.html">Обліковий запис</a></div>
+						<div class="item history"><a href="history.html">Історія замовлень</a></div>
+						<div class="item response"><a href="response.html">Написати відгук</a></div>
+						<div class="item logout"><a href="/">Вийти</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="second">
+				<h1>Обліковий запис</h1>
+				<div class="cards">
+					<div class="card personal-data">
+						<div class="header">Особисті дані</div>
+						<form action="/" name="form-user" data-form-state="edit">
+							<div class="form-input" data-form-state="edit saved">
+								<label for="form-user-name" data-form-state="edit saved">Прізвище, Ім’я</label>
+								<input class="block" type="text" name="form-user-name" id="form-user-name" autocomplete="off" required data-form-state="edit">
+								<div class="input-error-text" data-error-type="1" data-form-state="edit">Заповніть</div>
+								<div class="saved-data" data-form-state="saved">Петрик П’яточкін</div>
+							</div>
+							<div class="form-input" data-form-state="edit saved">
+								<label for="form-user-phone-number" data-form-state="edit saved">Номер мобільного телефону</label>
+								<div class="input-telephone-code" data-form-state="edit">
+									<input class="block" type="tel" name="form-user-phone-number" id="form-user-phone-number" autocomplete="off" required pattern="[0-9]{9}" maxlength="9" minlength="9" data-form-state="edit">
+								</div>
+								<div class="input-error-text" data-error-type="1" data-form-state="edit">Заповніть</div>
+								<div class="saved-data" data-form-state="saved">+380501234567</div>
+							</div>
+							<div class="form-input" data-form-state="edit saved">
+								<label for="form-user-email" data-form-state="edit saved">Адреса електронної пошти</label>
+								<input class="block" type="email" name="form-user-email" id="form-user-email" autocomplete="off" required data-form-state="edit">
+								<div class="input-error-text" data-error-type="1" data-form-state="edit">Заповніть</div>
+								<div class="saved-data" data-form-state="saved">pup@1.1</div>
+							</div>
+							<div class="buttons" data-form-state="edit saved">
+								<button class="button type1 green" type="submit" data-form-state="edit" onclick="this.parentElement.parentElement.dataset.formState='saved'">ЗБЕРЕГТИ</button>
+								<button class="button type1 white" type="button" data-form-state="saved" onclick="this.parentElement.parentElement.dataset.formState='edit'">РЕДАГУВАТИ</button>
+							</div>
+						</form>
+					</div>
+					<div class="card social">
+						<div class="header">Облікові записи соціальних мереж</div>
+						<div class="connect-text">Приєднайте свій обліковий запис соціальної мережі для входу у кабінет користувача</div>
+						<div class="connected facebook">
+							<div class="avatar"><img src="https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-1/p50x50/18275269_1400151920046308_4258765747817854710_n.jpg?oh=ea9055b27bc00c782320b489ee16e4ff&oe=5A2743DD" alt=""></div>
+							<div class="name">ІванІванІванІванІван ПупкінПупкінПупкінПупкін</div>
+							<div class="disconnect" onclick="this.parentElement.parentElement.classList.remove('facebook-added')">Скасувати зв’язок з Facebook</div>
+						</div>
+						<div class="connected google">
+							<div class="avatar"><img src="//plus.google.com/u/0/_/focus/photos/public/AIbEiAIAAABECJHvkPyH78jVmgEiC3ZjYXJkX3Bob3RvKig2OGEyYzdiM2FmNDdmMWEwZDNjOTI5ZmUxYmE3NzY2Yzg5ZWZlMWNkMAEa2FcRhSIT4LeE1SnA33xF6J64ww?sz=48" alt=""></div>
+							<div class="name">Ivan Poupkin</div>
+							<div class="disconnect" onclick="this.parentElement.parentElement.classList.remove('google-added')">Скасувати зв’язок з Google</div>
+						</div>
+						<div class="buttons">
+							<button type="button" class="button type1 facebook" onclick="this.parentElement.parentElement.classList.add('facebook-added')">Facebook</button>
+							<button type="button" class="button type1 google" onclick="this.parentElement.parentElement.classList.add('google-added')">Google</button>
+						</div>
+					</div>
+					<div class="card delivery-data">
+						<div class="header">Доставка замовлення</div>
+						<form action="/" name="form-delivery" data-form-state="saved">
+							<div class="form-input" data-form-state="edit saved">
+								<label for="form-delivery-location" data-form-state="edit saved">Населений пункт</label>
+								<input class="block" type="text" name="form-delivery-location" id="form-delivery-location" autocomplete="off" required data-form-state="edit">
+								<div class="input-error-text" data-error-type="1" data-form-state="edit">Заповніть</div>
+								<div class="saved-data" data-form-state="saved">Луцьк</div>
+							</div>
+							<div class="form-input" data-form-state="edit saved">
+								<label for="form-delivery-company" data-form-state="edit saved">Транспортна компанія</label>
+								<input class="block" type="text" name="form-delivery-company" id="form-delivery-company" autocomplete="off" required data-form-state="edit">
+								<div class="input-error-text" data-error-type="1" data-form-state="edit">Заповніть</div>
+								<div class="saved-data" data-form-state="saved">Нова пошта</div>
+							</div>
+							<div class="form-input" data-form-state="edit saved">
+								<label for="form-delivery-address" data-form-state="edit saved">Відділення (адреса доставки)</label>
+								<input class="block" type="text" name="form-delivery-address" id="form-delivery-address" autocomplete="off" required data-form-state="edit">
+								<div class="input-error-text" data-error-type="1" data-form-state="edit">Заповніть</div>
+								<div class="saved-data" data-form-state="saved">відділення № 8, проспект Соборності, 38а</div>
+							</div>
+							<div class="buttons" data-form-state="edit saved">
+								<button class="button type1 green" type="submit" data-form-state="edit" onclick="this.parentElement.parentElement.dataset.formState='saved'">ЗБЕРЕГТИ</button>
+								<button class="button type1 white" type="button" data-form-state="saved" onclick="this.parentElement.parentElement.dataset.formState='edit'">РЕДАГУВАТИ</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!--#include virtual="/inc/project-footer.html_include" -->
+	<script src="/js/artex.js"></script>
+	<script>
+		if (Artex) {
+			if (typeof Artex.Data === 'object') {
+				Artex.Data.page = {
+					'type': 'user',
+				};
+				Artex.Data.user = {
+					'name': 'Джон Доу',
+					'avatar': 'https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-1/c12.0.74.74a/p74x74/1925305_1538509879708565_1994387184_n.jpg?_nc_cat=103&_nc_oc=AQlYULCzcFecFfopdQna1OOwIigQziRbEgF2shGtO9-IYV2gkX6sA1oXOJanS4g2Tn0&_nc_ht=scontent-frx5-1.xx&oh=f3f34188c18d68ce8a3bc6dd9323381d&oe=5DB20789'
+				};
+			}
+			else {
+				console.error('Wrong Artex.Data type.');
+			}
+		}
+		else {
+			console.error('Global variable Artex not exists.');
+		}
+	</script>
+</body>
+</html>

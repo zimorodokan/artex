@@ -1,0 +1,354 @@
+
+	<header>
+		<div data-screen="desktop">
+			<div class="first-line">
+				<div class="container">
+					<div class="block-1">
+						<a href="/contacts.html">Контакти</a>
+						<a href="/delivery.html">Доставка</a>
+						<a href="/payment.html">Оплата</a>
+						<a href="/warranty.html">Гарантія</a>
+						<a href="/journal.html">Блог</a>
+						<a href="https://youtube.com">Відео</a>
+					</div>
+					<div class="block-2">
+						<div class="language"><a class="switch" href="/">рус</a></div>
+						<div class="user" data-user="not-logged">
+							<div data-user="not-logged">
+								<div class="switch"><span class="icon"></span>Увійти</div>
+								<div class="content">
+									<div class="text">Увійти за допомогою електронної пошти</div>
+									<form action="/" name="form-user-desktop">
+										<div class="form-input">
+											<label for="form-user-desktop-email">Електронна пошта</label>
+											<input class="block" type="email" name="form-user-desktop-email" id="form-user-desktop-email" autocomplete="off" required>
+											<div class="input-error-text" data-error-type="1">Вкажіть адресу електронної пошти</div>
+										</div>
+										<button type="submit" class="button type1 green">Отримати доступ</button>
+									</form>
+									<div class="text">або через соціальну мережу</div>
+									<button type="button" class="button type1 facebook">Facebook</button>
+									<button type="button" class="button type1 google">Google</button>
+								</div>
+							</div>
+							<div data-user="logged">
+								<div class="switch"><span class="icon"></span>Профіль</div>
+								<div class="content">
+									<div class="items">
+										<div class="item user-name"></div>
+										<div class="item link left-icon profile"><a class="link" href="/user.html">Обліковий запис</a></div>
+										<div class="item link left-icon history"><a class="link" href="/history.html">Історія замовлень</a></div>
+										<div class="item link left-icon response"><a class="link" href="/response.html">Написати відгук</a></div>
+										<div class="item link left-icon exit"><a class="link" href="/">Вийти</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="basket" data-present>
+							<div class="switch"><span class="icon"></span>Кошик</div>
+							<div class="content">
+								<div class="items">
+									<div class="item">
+										<div class="name"><a href="/product.html">Одноразовий респіратор півмаска FS 17 V FFP1 NR D</a></div>
+										<div class="number">1</div>
+										<div class="times">&times;</div>
+										<div class="price">42 грн</div>
+									</div>
+									<div class="item">
+										<div class="name"><a href="/product.html">Захисна маска повнолицева Panarea Twin з фільтрами</a></div>
+										<div class="number">1</div>
+										<div class="times">&times;</div>
+										<div class="price">999999 грн</div>
+									</div>
+									<div class="item">
+										<div class="name"><a href="/product.html">Газозахисний фільтр A1B1E1K1 NewEurmask</a></div>
+										<div class="number">999</div>
+										<div class="times">&times;</div>
+										<div class="price">196 грн</div>
+									</div>
+									<div class="item">
+										<div class="name"><a href="/product.html">Газопилозахисний фільтр A2P3-7594 NewEurmask</a></div>
+										<div class="number">10</div>
+										<div class="times">&times;</div>
+										<div class="price">2088 грн</div>
+									</div>
+								</div>
+								<div class="amount">
+									<div>Всього:</div>
+									<div>10000000 грн</div>
+								</div>
+								<div class="links">
+									<a class="link" href="/basket.html">Редагувати</a>
+									<a class="button type4 green" href="/order.html">Оформити замовлення</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="second-line">
+				<div class="container">
+					<div class="logo">
+						<a href="/"><img src="/img/artex-logo.png" alt=""></a>
+					</div>
+					<div class="catalogue">
+						<div class="switch">Каталог <span class="icon"></span></div>
+						<div class="content">
+							<div class="items">
+								<div class="item">
+									<div class="name"><a href="/product-groups.html">Захист органів дихання</a></div>
+									<div class="items">
+										<div class="item link"><a href="/product-group.html">Маски повнолицеві</a></div>
+										<div class="item link"><a href="/product-group.html">Напівмаски</a></div>
+										<div class="item link"><a href="/product-group.html">Респіратори</a></div>
+										<div class="item link"><a href="/product-group.html">Змінні фільтри</a></div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="name"><a href="/product-groups.html">Каски захисні</a></div>
+									<div class="items">
+										<div class="item">
+											<div class="name"><a href="/product-groups.html">Захист органів дихання</a></div>
+											<div class="items">
+												<div class="item link"><a href="/product-group.html">Маски повнолицеві</a></div>
+												<div class="item link"><a href="/product-group.html">Напівмаски</a></div>
+												<div class="item link"><a href="/product-group.html">Респіратори</a></div>
+												<div class="item link"><a href="/product-group.html">Змінні фільтри</a></div>
+											</div>
+										</div>
+										<div class="item link"><a href="/product-group.html">Маски повнолицеві</a></div>
+										<div class="item link"><a href="/product-group.html">Напівмаски</a></div>
+										<div class="item link"><a href="/product-group.html">Респіратори</a></div>
+										<div class="item link"><a href="/product-group.html">Змінні фільтри</a></div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="name"><a href="/product-groups.html">Окуляри робочі</a></div>
+									<div class="items">
+										<div class="item link"><a href="/product-group.html">Маски повнолицеві</a></div>
+										<div class="item link"><a href="/product-group.html">Напівмаски</a></div>
+										<div class="item link"><a href="/product-group.html">Респіратори</a></div>
+										<div class="item link"><a href="/product-group.html">Змінні фільтри</a></div>
+									</div>
+								</div>
+								<div class="item link"><a href="/product-group.html">Маски повнолицеві</a></div>
+								<div class="item link"><a href="/product-group.html">Напівмаски</a></div>
+								<div class="item link"><a href="/product-group.html">Респіратори</a></div>
+								<div class="item link"><a href="/product-group.html">Змінні фільтри</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="search">
+						<div class="content">
+							<div class="shadow-layer"></div>
+							<div class="search-container">
+								<div class="switch"></div>
+								<div class="input-block">
+									<div class="close-search"></div>
+									<input class="input" type="search" placeholder="Хочу знайти">
+								</div>
+								<div class="result-block">
+									<div class="items">
+										<div class="item group"><a href="/product-group.html">Маски</a></div>
+										<div class="item group"><a href="/product-group.html">Напівмаски</a></div>
+										<div class="item group"><a href="/product-group.html">Маски з фільтрами</a></div>
+										<div class="item keyword"><a href="/product.html">Маски-респіратори</a></div>
+										<div class="item keyword"><a href="/product.html">Напівмаски-респіратори</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="contacts">
+						<div class="viber"><a class="icon" href="viber://add?number=12345678"></a></div>
+						<div class="telegram"><a class="icon" href="https://t.me/voxep"></a></div>
+						<div class="drop-down-menu">
+							<div class="switch"><div class="icon"></div></div>
+							<div class="items">
+								<div class="item tel"><a class="link" href="tel:+380675364675">Київстар: +38 067 536 46 75</a></div>
+								<div class="item tel"><a class="link" href="tel:+380673297117">Київстар: +38 067 329 71 17</a></div>
+								<div class="item viber"><a class="icon" href="viber://add?number=12345678">Viber</a></div>
+								<div class="item telegram"><a class="icon" href="https://t.me/voxep">Telegram</a></div>
+							</div>
+						</div>
+						<div class="phones">
+							<div class="phone"><a href="tel:+380675364675">+38 067 536 46 75</a></div>
+							<div class="phone"><a href="tel:+380673297117">+38 067 329 71 17</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-screen="mobile">
+			<div class="container">
+				<div class="menu">
+					<div class="shadow-layer"></div>
+					<div class="switch"><span class="icon"></span></div>
+					<div class="content">
+						<div class="top-line">
+							<div class="container">
+								<div class="user" data-user="not-logged">
+									<div data-user="not-logged">
+										<div class="switch"><span class="icon"></span>Увійти</div>
+										<div class="content">
+											<div class="text">Увійти за допомогою електронної пошти</div>
+											<form action="/" name="form-user-desktop">
+												<div class="form-input">
+													<label for="form-user-mobile-email">Електронна пошта</label>
+													<input class="block" type="email" name="form-user-mobile-email" id="form-user-mobile-email" autocomplete="off" required>
+													<div class="input-error-text" data-error-type="1">Вкажіть адресу електронної пошти</div>
+												</div>
+												<button type="submit" class="button type1 green">Отримати доступ</button>
+											</form>
+											<div class="text">або через соціальну мережу</div>
+											<button type="button" class="button type1 facebook">Facebook</button>
+											<button type="button" class="button type1 google">Google</button>
+										</div>
+									</div>
+									<div data-user="logged">
+										<div class="switch"><span class="icon"></span>Профіль</div>
+										<div class="content">
+											<div class="items">
+												<div class="item user-name"></div>
+												<div class="item link left-icon profile"><a class="link" href="/user.html">Обліковий запис</a></div>
+												<div class="item link left-icon history"><a class="link" href="/history.html">Історія замовлень</a></div>
+												<div class="item link left-icon response"><a class="link" href="/response.html">Написати відгук</a></div>
+												<div class="item link left-icon exit"><a class="link" href="/">Вийти</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="language"><a class="switch" href="/">рус</a></div>
+							</div>
+						</div>
+						<div class="items">
+							<div class="item">
+								<div class="name">Каталог</div>
+								<div class="items">
+									<div class="item">
+										<div class="name"><a href="/product-groups.html">Захист органів дихання</a></div>
+										<div class="items">
+											<div class="item link"><a href="/product-group.html">Маски повнолицеві</a></div>
+											<div class="item link"><a href="/product-group.html">Напівмаски</a></div>
+											<div class="item link"><a href="/product-group.html">Респіратори</a></div>
+											<div class="item link"><a href="/product-group.html">Змінні фільтри</a></div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="name"><a href="/product-groups.html">Каски захисні</a></div>
+										<div class="items">
+											<div class="item">
+												<div class="name"><a href="/product-groups.html">Захист органів дихання</a></div>
+												<div class="items">
+													<div class="item link"><a href="/product-group.html">Маски повнолицеві</a></div>
+													<div class="item link"><a href="/product-group.html">Напівмаски</a></div>
+													<div class="item link"><a href="/product-group.html">Респіратори</a></div>
+													<div class="item link"><a href="/product-group.html">Змінні фільтри</a></div>
+												</div>
+											</div>
+											<div class="item link"><a href="/product-group.html">Маски повнолицеві</a></div>
+											<div class="item link"><a href="/product-group.html">Напівмаски</a></div>
+											<div class="item link"><a href="/product-group.html">Респіратори</a></div>
+											<div class="item link"><a href="/product-group.html">Змінні фільтри</a></div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="name"><a href="/product-groups.html">Окуляри робочі</a></div>
+										<div class="items">
+											<div class="item link"><a href="/product-group.html">Маски повнолицеві</a></div>
+											<div class="item link"><a href="/product-group.html">Напівмаски</a></div>
+											<div class="item link"><a href="/product-group.html">Респіратори</a></div>
+											<div class="item link"><a href="/product-group.html">Змінні фільтри</a></div>
+										</div>
+									</div>
+									<div class="item link"><a href="/product-group.html">Маски повнолицеві</a></div>
+									<div class="item link"><a href="/product-group.html">Напівмаски</a></div>
+									<div class="item link"><a href="/product-group.html">Респіратори</a></div>
+									<div class="item link"><a href="/product-group.html">Змінні фільтри</a></div>
+								</div>
+							</div>
+							<div class="item level-1"><a href="/contacts.html">Контакти</a></div>
+							<div class="item level-1"><a href="/delivery.html">Доставка</a></div>
+							<div class="item level-1"><a href="/payment.html">Оплата</a></div>
+							<div class="item level-1"><a href="/warranty.html">Гарантія</a></div>
+							<div class="item level-1"><a href="/journal.html">Блог</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="logo">
+					<a href="/"><img src="/img/artex-logo_short.png" alt=""></a>
+				</div>
+				<div class="search">
+					<div class="switch"><span class="icon"></span></div>
+					<div class="content">
+						<div class="shadow-layer"></div>
+						<div class="search-container">
+							<div class="input-block">
+								<div class="close-search"></div>
+								<input class="input" type="search" placeholder="Хочу знайти">
+							</div>
+							<div class="result-block">
+								<div class="items">
+									<div class="item group"><a href="/product-group.html">Маски</a></div>
+									<div class="item group"><a href="/product-group.html">Напівмаски</a></div>
+									<div class="item group"><a href="/product-group.html">Маски з фільтрами</a></div>
+									<div class="item keyword"><a href="/product.html">Маски-респіратори</a></div>
+									<div class="item keyword"><a href="/product.html">Напівмаски-респіратори</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="basket" data-present>
+					<div class="switch"><span class="icon"></span></div>
+					<div class="content">
+						<div class="items">
+							<div class="item">
+								<div class="name"><a href="/product.html">Одноразовий респіратор півмаска FS 17 V FFP1 NR D</a></div>
+								<div class="number">1</div>
+								<div class="times">&times;</div>
+								<div class="price">42 грн</div>
+							</div>
+							<div class="item">
+								<div class="name"><a href="/product.html">Захисна маска повнолицева Panarea Twin з фільтрами</a></div>
+								<div class="number">1</div>
+								<div class="times">&times;</div>
+								<div class="price">999999 грн</div>
+							</div>
+							<div class="item">
+								<div class="name"><a href="/product.html">Газозахисний фільтр A1B1E1K1 NewEurmask</a></div>
+								<div class="number">999</div>
+								<div class="times">&times;</div>
+								<div class="price">196 грн</div>
+							</div>
+							<div class="item">
+								<div class="name"><a href="/product.html">Газопилозахисний фільтр A2P3-7594 NewEurmask</a></div>
+								<div class="number">10</div>
+								<div class="times">&times;</div>
+								<div class="price">2088 грн</div>
+							</div>
+						</div>
+						<div class="amount">
+							<div>Всього:</div>
+							<div>10000000 грн</div>
+						</div>
+						<div class="links">
+							<a class="link" href="/basket.html">Редагувати</a>
+							<a class="button type4 green" href="/order.html">Оформити замовлення</a>
+						</div>
+					</div>
+				</div>
+				<div class="contacts">
+					<div class="switch"><span class="icon"></span></div>
+					<div class="content">
+						<div class="items">
+							<div class="item tel"><a class="link" href="tel:+380675364675">Київстар: +38 067 536 46 75</a></div>
+							<div class="item tel"><a class="link" href="tel:+380673297117">Київстар: +38 067 329 71 17</a></div>
+							<div class="item viber"><a class="icon" href="viber://add?number=12345678">Viber</a></div>
+							<div class="item telegram"><a class="icon" href="https://t.me/voxep">Telegram</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>

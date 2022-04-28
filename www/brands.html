@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>brands</title>
+	<meta name="description" content="Сторінка brands">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="canonical" href="https://artex.proridne.com/brands.html">
+	<link rel="alternate" hreflang="uk" href="/">
+	<link rel="alternate" hreflang="ru" href="/">
+	<!--#include virtual="/inc/project-head-icons.html_include" -->
+	<style>
+		<!--#include virtual="/css/artex.css" -->
+	</style>
+</head>
+<body>
+	<!--#include virtual="/inc/project-header.html_include" -->
+	<div class="back-to-parent"><a href="/main.html">Головна</a></div>
+	<main>
+		<h1>Виробники</h1>
+		<div class="brand-catalogue">
+			<div class="brand-container">
+				<a class="brand" href="/brand.html">
+					<div class="image"><img src="/image/brand-1.jpg" alt="Логотип 3M"></div>
+					<div class="name">3M</div>
+				</a>
+				<a class="brand" href="/brand.html">
+					<div class="image"><img src="/image/brand-2.jpg" alt="Логотип Укрфільтрсервіс"></div>
+					<div class="name">Укрфільтрсервіс</div>
+				</a>
+				<a class="brand" href="/brand.html">
+					<div class="image"><img src="/image/brand-3.jpg" alt="Логотип Milla Srl"></div>
+					<div class="name">Milla Srl</div>
+				</a>
+				<a class="brand" href="/brand.html">
+					<div class="image"><img src="/image/brand-4.jpg" alt="Логотип Стандарт"></div>
+					<div class="name">Стандарт</div>
+				</a>
+				<a class="brand" href="/brand.html">
+					<div class="image"><img src="/image/brand-5.jpg" alt="Логотип Filter Service"></div>
+					<div class="name">Filter Service</div>
+				</a>
+			</div>
+		</div>
+		<div class="standard-text">
+			<section>
+				<h2>Засоби індивідуального захисту</h2>
+				<p>Наша компанія пропонує <a href="/">товари</a>, що зберігають ваше здоров’я та забезпечують безпеку праці.  Правильний вибір засобу індивідуального захисту нелегкий.</p>
+				<section>
+					<h3>Інноваційна продукція</h3>
+					<p>Наш багаторічний досвід роботи допоможе вам підібрати найефективніші засоби захисту.  У нас ви отримаєте професійну консультацію та надійну безпеку.</p>
+				</section>
+			</section>
+		</div>
+	</main>
+	<!--#include virtual="/inc/project-footer.html_include" -->
+	<script src="/js/artex.js"></script>
+	<script>
+		if (Artex) {
+			if (typeof Artex.Data === 'object') {
+				Artex.Data.page = {
+					'type': 'brands',
+				};
+				Artex.Data.user = {
+				};
+			}
+			else {
+				console.error('Wrong Artex.Data type.');
+			}
+		}
+		else {
+			console.error('Global variable Artex not exists.');
+		}
+	</script>
+</body>
+</html>
